@@ -1,0 +1,21 @@
+[
+{
+  "modid": "gozuliantechnologies",
+  "name": "Gozulian Technologies",
+  "description": "Gozulios minecraft mod",
+  "version": "0.100",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "gozulio"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
