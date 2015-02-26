@@ -1,0 +1,9 @@
+#defined GitIgnore for local GozulianTechnologies build.
+eclipse/
+!/eclipse/metadeta
+build/
+out/
+.gradle/
+*.iml
+*.ipr
+*.iws
