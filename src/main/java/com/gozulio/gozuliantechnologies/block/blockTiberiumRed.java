@@ -1,8 +1,8 @@
 package com.gozulio.gozuliantechnologies.block;
 
-import com.gozulio.gozuliantechnologies.helper._BlockHelper_Generic;
+import com.gozulio.gozuliantechnologies.helper._BlockHelper_Tiberium;
 
-public class blockTiberiumRed extends _BlockHelper_Generic
+public class blockTiberiumRed extends _BlockHelper_Tiberium
 {
     public blockTiberiumRed()
     {
