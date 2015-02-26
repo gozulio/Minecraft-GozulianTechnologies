@@ -1,7 +1,9 @@
 package com.gozulio.gozuliantechnologies;
 
+import com.gozulio.gozuliantechnologies.proxy.iProxy;
 import com.gozulio.gozuliantechnologies.reference.Reference;
 import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
@@ -11,6 +13,9 @@ public class GozulianTechnologies
 {
     @Mod.Instance(Reference.MOD_ID)
     public static GozulianTechnologies instance;
+
+    @SidedProxy(clientSide =Reference.CLIENT_PROXY_PATH , serverSide =Reference.SERVER_PROXY_PATH )
+    public static iProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
