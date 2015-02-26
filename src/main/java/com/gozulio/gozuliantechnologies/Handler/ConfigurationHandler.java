@@ -1,4 +1,4 @@
-package com.gozulio.gozuliantechnologies.Handler;
+package com.gozulio.gozuliantechnologies.handler;
 
 
 import com.gozulio.gozuliantechnologies.Utility.LogHelper;
