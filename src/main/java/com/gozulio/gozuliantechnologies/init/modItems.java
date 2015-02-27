@@ -5,7 +5,9 @@ import com.gozulio.gozuliantechnologies.helper.tool._ToolHelper_Sword;
 import com.gozulio.gozuliantechnologies.item.itemTiberiumBlue;
 import com.gozulio.gozuliantechnologies.item.itemTiberiumGreen;
 import com.gozulio.gozuliantechnologies.item.itemTiberiumRed;
+import com.gozulio.gozuliantechnologies.item.tool.sword.swordTiberiumBlue;
 import com.gozulio.gozuliantechnologies.item.tool.sword.swordTiberiumGreen;
+import com.gozulio.gozuliantechnologies.item.tool.sword.swordTiberiumRed;
 import com.gozulio.gozuliantechnologies.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -19,6 +21,8 @@ public class modItems
 
     //declare swords
     public static final _ToolHelper_Sword tooltiberiumgreensword = new swordTiberiumGreen();
+    public static final _ToolHelper_Sword tooltiberiumbluesword = new swordTiberiumBlue();
+    public static final _ToolHelper_Sword tooltiberiumredsword = new swordTiberiumRed();
     //declare pickaxes
 
     //declare shovels
@@ -33,6 +37,8 @@ public class modItems
 
         //init swords
         GameRegistry.registerItem(tooltiberiumgreensword, "Tiberium_Green_Sword");
+        GameRegistry.registerItem(tooltiberiumbluesword, "Tiberium_Blue_Sword");
+        GameRegistry.registerItem(tooltiberiumredsword, "Tiberium_Red_Sword");
         //init pickaxes
 
         //init shovels
