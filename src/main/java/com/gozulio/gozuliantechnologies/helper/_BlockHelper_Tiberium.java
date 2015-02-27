@@ -10,6 +10,7 @@ public class _BlockHelper_Tiberium extends _BlockHelper_Generic
         this.setHardness(0.5f);
         this.setStepSound(soundTypeGlass);
         this.setLightLevel(0.3f);
+        this.setHarvestLevel("pickaxe", 1);
     }
     public _BlockHelper_Tiberium()
     {
