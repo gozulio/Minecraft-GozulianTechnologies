@@ -6,7 +6,7 @@ item.gozuliantechnologies:Tiberium_Blue.name=Blue Tiberium Shard
 item.gozuliantechnologies:Tiberium_Red.name=Red Tiberium Shard
 
 #Weapons
-item.gozuliantechnologies:Tiberium_Green_Sword=Green Tiberium Sword
+item.gozuliantechnologies:Tiberium_Green_Sword.name=Green Tiberium Sword
 
 ##########
 #blocks
