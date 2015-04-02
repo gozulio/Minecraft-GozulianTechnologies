@@ -39,6 +39,7 @@ public class modItems
         GameRegistry.registerItem(tooltiberiumgreensword, "Tiberium_Green_Sword");
         GameRegistry.registerItem(tooltiberiumbluesword, "Tiberium_Blue_Sword");
         GameRegistry.registerItem(tooltiberiumredsword, "Tiberium_Red_Sword");
+
         //init pickaxes
 
         //init shovels

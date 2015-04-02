@@ -30,15 +30,21 @@ public class GozulianTechnologies
         LogHelper.info("Items Loaded.");
         modBlocks.init();
         LogHelper.info("Blocks Loaded.");
+
+        LogHelper.info("Pre-Init Complete!");
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
 
+
+        LogHelper.info("Initialisation Complete!");
     }
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
 
+
+        LogHelper.info("Post-Init Complete!");
     }
 }

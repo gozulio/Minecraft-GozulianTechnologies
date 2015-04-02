@@ -22,6 +22,6 @@ public class blockTiberiumBlue extends _BlockHelper_Tiberium
     @Override
     public int quantityDropped(int metadata, int fortune, Random random)
     {
-        return 1 + random.nextInt(4 - 2 + fortune);
+        return 1 + random.nextInt(4 - 2) + fortune;
     }
 }
