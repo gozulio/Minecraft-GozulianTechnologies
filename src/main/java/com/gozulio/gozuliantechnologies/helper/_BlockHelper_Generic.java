@@ -1,6 +1,7 @@
 package com.gozulio.gozuliantechnologies.helper;
 
 
+import com.gozulio.gozuliantechnologies.handler.CreativetabHandler;
 import com.gozulio.gozuliantechnologies.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,6 +14,7 @@ public class _BlockHelper_Generic extends Block
     public _BlockHelper_Generic(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativetabHandler.GOZTECH);
     }
     public _BlockHelper_Generic()
     {

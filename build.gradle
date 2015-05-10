@@ -17,12 +17,12 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.10-0.001"
+version = "1.7.10-0.002"
 group= "com.gozulio.gozuliantechnologies" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "gozuliantechnologies"
 
 minecraft {
-    version = "1.7.10-10.13.2.1291"
+    version = "10.13.3.1403-1.7.10"
     runDir = "eclipse"
 }
 

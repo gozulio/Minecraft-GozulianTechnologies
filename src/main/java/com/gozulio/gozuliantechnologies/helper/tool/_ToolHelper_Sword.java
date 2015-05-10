@@ -1,5 +1,6 @@
 package com.gozulio.gozuliantechnologies.helper.tool;
 
+import com.gozulio.gozuliantechnologies.handler.CreativetabHandler;
 import com.gozulio.gozuliantechnologies.init.modMaterial;
 import com.gozulio.gozuliantechnologies.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
@@ -14,6 +15,7 @@ public class _ToolHelper_Sword extends ItemSword
     {
         super(material);
         this.setMaxStackSize(1);
+        this.setCreativeTab(CreativetabHandler.GOZTECH);
     }
     @Override
     public String getUnlocalizedName()

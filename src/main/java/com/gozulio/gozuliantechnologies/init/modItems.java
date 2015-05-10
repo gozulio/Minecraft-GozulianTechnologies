@@ -2,6 +2,7 @@ package com.gozulio.gozuliantechnologies.init;
 
 import com.gozulio.gozuliantechnologies.helper._ItemHelper_Generic;
 import com.gozulio.gozuliantechnologies.helper.tool._ToolHelper_Sword;
+import com.gozulio.gozuliantechnologies.item.itemOrganicGoop;
 import com.gozulio.gozuliantechnologies.item.itemTiberiumBlue;
 import com.gozulio.gozuliantechnologies.item.itemTiberiumGreen;
 import com.gozulio.gozuliantechnologies.item.itemTiberiumRed;
@@ -18,6 +19,7 @@ public class modItems
     public static final _ItemHelper_Generic itemtiberiumgreen = new itemTiberiumGreen();
     public static final _ItemHelper_Generic itemtiberiumblue = new itemTiberiumBlue();
     public static final _ItemHelper_Generic itemtiberiumred = new itemTiberiumRed();
+    public static final _ItemHelper_Generic itemorganicgoop = new itemOrganicGoop();
 
     //declare swords
     public static final _ToolHelper_Sword tooltiberiumgreensword = new swordTiberiumGreen();
@@ -34,6 +36,7 @@ public class modItems
         GameRegistry.registerItem(itemtiberiumgreen, "Tiberium_Green");
         GameRegistry.registerItem(itemtiberiumblue, "Tiberium_Blue");
         GameRegistry.registerItem(itemtiberiumred, "Tiberium_Red");
+        GameRegistry.registerItem(itemorganicgoop, "Organic_Goop");
 
         //init swords
         GameRegistry.registerItem(tooltiberiumgreensword, "Tiberium_Green_Sword");

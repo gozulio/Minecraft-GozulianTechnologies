@@ -1,6 +1,7 @@
 package com.gozulio.gozuliantechnologies.helper;
 
 
+import com.gozulio.gozuliantechnologies.handler.CreativetabHandler;
 import com.gozulio.gozuliantechnologies.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,6 +14,7 @@ public class _ItemHelper_Generic extends Item
     public _ItemHelper_Generic()
     {
         super();
+        this.setCreativeTab(CreativetabHandler.GOZTECH);
     }
     @Override
     public String getUnlocalizedName()

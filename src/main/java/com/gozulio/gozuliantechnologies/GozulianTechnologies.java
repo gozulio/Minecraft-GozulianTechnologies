@@ -2,8 +2,7 @@ package com.gozulio.gozuliantechnologies;
 
 import com.gozulio.gozuliantechnologies.handler.ConfigurationHandler;
 import com.gozulio.gozuliantechnologies.Utility.LogHelper;
-import com.gozulio.gozuliantechnologies.init.modBlocks;
-import com.gozulio.gozuliantechnologies.init.modItems;
+import com.gozulio.gozuliantechnologies.init.*;
 import com.gozulio.gozuliantechnologies.proxy.iProxy;
 import com.gozulio.gozuliantechnologies.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -36,8 +35,19 @@ public class GozulianTechnologies
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        LogHelper.info("Registering to OreDictionary.");
+        modLocalOreDict.init();
+        LogHelper.info("Ore Dictionary entries registered.");
 
+        LogHelper.info("Registering to Crafting Dictionary.");
+        modCraftDict.init();
+        LogHelper.info("Crafting recipes Registered.");
 
+        LogHelper.info("Registering to Smelting Dictionary");
+        modSmeltingDict.init();
+        LogHelper.info("Smelting Recipes Registered");
+
+        modDungeonLoot.init();
         LogHelper.info("Initialisation Complete!");
     }
     @Mod.EventHandler

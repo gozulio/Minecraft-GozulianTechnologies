@@ -4,6 +4,7 @@
 item.gozuliantechnologies:Tiberium_Green.name=Green Tiberium Shard
 item.gozuliantechnologies:Tiberium_Blue.name=Blue Tiberium Shard
 item.gozuliantechnologies:Tiberium_Red.name=Red Tiberium Shard
+item.gozuliantechnologies:Organic_Goop.name=Organic Goop
 
 #Weapons
 item.gozuliantechnologies:Tiberium_Green_Sword.name=Green Tiberium Sword
@@ -16,3 +17,8 @@ item.gozuliantechnologies:Tiberium_Red_Sword.name=Red Tiberium Sword
 tile.gozuliantechnologies:Tiberium_Green_Block.name=Green Tiberium Crystal
 tile.gozuliantechnologies:Tiberium_Blue_Block.name=Blue Tiberium Crystal
 tile.gozuliantechnologies:Tiberium_Red_Block.name=Red Tiberium Crystal
+
+##########
+#Creative Tab
+##########
+itemGroup.gozuliantechnologies=Gozulian Technologies
