@@ -1,9 +1,7 @@
 package com.gozulio.gozuliantechnologies.init;
 
 
-import com.gozulio.gozuliantechnologies.block.blockTiberiumBlue;
-import com.gozulio.gozuliantechnologies.block.blockTiberiumGreen;
-import com.gozulio.gozuliantechnologies.block.blockTiberiumRed;
+import com.gozulio.gozuliantechnologies.block.*;
 import com.gozulio.gozuliantechnologies.helper._BlockHelper_Generic;
 import com.gozulio.gozuliantechnologies.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
