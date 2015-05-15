@@ -3,6 +3,8 @@ eclipse/
 !/eclipse/metadeta
 build/
 out/
+lib/
+!/lib/RedStoneFlux-API-master
 .gradle/
 *.iml
 *.ipr

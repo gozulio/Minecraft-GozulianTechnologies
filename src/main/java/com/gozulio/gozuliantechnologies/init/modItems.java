@@ -1,11 +1,15 @@
 package com.gozulio.gozuliantechnologies.init;
 
 import com.gozulio.gozuliantechnologies.helper._ItemHelper_Generic;
+import com.gozulio.gozuliantechnologies.helper.tool._ToolHelper_Pickaxe;
 import com.gozulio.gozuliantechnologies.helper.tool._ToolHelper_Sword;
 import com.gozulio.gozuliantechnologies.item.itemOrganicGoop;
 import com.gozulio.gozuliantechnologies.item.itemTiberiumBlue;
 import com.gozulio.gozuliantechnologies.item.itemTiberiumGreen;
 import com.gozulio.gozuliantechnologies.item.itemTiberiumRed;
+import com.gozulio.gozuliantechnologies.item.tool.pickaxe.pickaxeTiberiumBlue;
+import com.gozulio.gozuliantechnologies.item.tool.pickaxe.pickaxeTiberiumGreen;
+import com.gozulio.gozuliantechnologies.item.tool.pickaxe.pickaxeTiberiumRed;
 import com.gozulio.gozuliantechnologies.item.tool.sword.swordTiberiumBlue;
 import com.gozulio.gozuliantechnologies.item.tool.sword.swordTiberiumGreen;
 import com.gozulio.gozuliantechnologies.item.tool.sword.swordTiberiumRed;
@@ -26,7 +30,9 @@ public class modItems
     public static final _ToolHelper_Sword tooltiberiumbluesword = new swordTiberiumBlue();
     public static final _ToolHelper_Sword tooltiberiumredsword = new swordTiberiumRed();
     //declare pickaxes
-
+    public static final _ToolHelper_Pickaxe tooltiberiumgreenpickaxe = new pickaxeTiberiumGreen();
+    public static final _ToolHelper_Pickaxe tooltiberiumbluepickaxe = new pickaxeTiberiumBlue();
+    public static final _ToolHelper_Pickaxe tooltiberiumredpickaxe = new pickaxeTiberiumRed();
     //declare shovels
 
     //declare axes
@@ -44,7 +50,9 @@ public class modItems
         GameRegistry.registerItem(tooltiberiumredsword, "Tiberium_Red_Sword");
 
         //init pickaxes
-
+        GameRegistry.registerItem(tooltiberiumgreenpickaxe, "Tiberium_Green_Pickaxe");
+        GameRegistry.registerItem(tooltiberiumbluepickaxe, "Tiberium_Blue_Pickaxe");
+        GameRegistry.registerItem(tooltiberiumredpickaxe, "Tiberium_Red_Pickaxe");
         //init shovels
 
         //init axes

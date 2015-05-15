@@ -11,6 +11,11 @@ item.gozuliantechnologies:Tiberium_Green_Sword.name=Green Tiberium Sword
 item.gozuliantechnologies:Tiberium_Blue_Sword.name=Blue tiberium Sword
 item.gozuliantechnologies:Tiberium_Red_Sword.name=Red Tiberium Sword
 
+#Pickaxes
+item.gozuliantechnologies:Tiberium_Pickaxe_Green.name=Green Tiberium Pickaxe
+item.gozuliantechnologies:Tiberium_Pickaxe_Blue.name=Blue Tiberium Pickaxe
+item.gozuliantechnologies:Tiberium_Pickaxe_Red.name=Red Tiberium Pickaxe
+
 ##########
 #blocks
 ##########

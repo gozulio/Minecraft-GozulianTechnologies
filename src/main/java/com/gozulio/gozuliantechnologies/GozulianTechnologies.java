@@ -2,6 +2,7 @@ package com.gozulio.gozuliantechnologies;
 
 import com.gozulio.gozuliantechnologies.handler.ConfigurationHandler;
 import com.gozulio.gozuliantechnologies.Utility.LogHelper;
+import com.gozulio.gozuliantechnologies.handler.FuelHandler;
 import com.gozulio.gozuliantechnologies.init.*;
 import com.gozulio.gozuliantechnologies.proxy.iProxy;
 import com.gozulio.gozuliantechnologies.reference.Reference;
@@ -10,6 +11,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class GozulianTechnologies
@@ -23,30 +25,31 @@ public class GozulianTechnologies
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+
+        //Load or Generate config file.
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         LogHelper.info("Configuration Loaded.");
-        modItems.init();
-        LogHelper.info("Items Loaded.");
-        modBlocks.init();
-        LogHelper.info("Blocks Loaded.");
 
+        //Register Items.
+        modItems.init();
+        //bl0x pl0x
+        modBlocks.init();
+        //Lod Tile Entities.
+        modTiles.init();
+        //Register fuel Handler
+        GameRegistry.registerFuelHandler(new FuelHandler());
         LogHelper.info("Pre-Init Complete!");
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-        LogHelper.info("Registering to OreDictionary.");
+        //Register mod oreDictionary things to ore dictionary
         modLocalOreDict.init();
-        LogHelper.info("Ore Dictionary entries registered.");
-
-        LogHelper.info("Registering to Crafting Dictionary.");
+        //Register crafting recipes
         modCraftDict.init();
-        LogHelper.info("Crafting recipes Registered.");
-
-        LogHelper.info("Registering to Smelting Dictionary");
+        //Register smelting recipes
         modSmeltingDict.init();
-        LogHelper.info("Smelting Recipes Registered");
-
+        //dungeon loot! w00t!
         modDungeonLoot.init();
         LogHelper.info("Initialisation Complete!");
     }

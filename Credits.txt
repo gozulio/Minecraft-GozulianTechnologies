@@ -1,3 +1,7 @@
 This mod is based on the lets mod reboot series of MC coder Pahimar.
-Pahimar has a lesson plan that i am fallowing to get started developing this mod, after hsi completes building his lesson plan i will continue to build Gozulian Technologies into a full fledged minecraft mod.
+Pahimar has a lesson plan that i am fallowing to get started developing this mod, after he completes building his lesson plan i will continue to build Gozulian Technologies into a full fledged minecraft mod.
 Pahimars Letse Mod Reboot series can be found at: http://www.pahimar.com/tutorials/lets-mod/
+
+Saw something of yours not credited?
+    For Utilities: credit is given as a comment in the beginning of the file.
+    I will only credit entire classes or class files that i made changes to, or relatively large blocks of code that i didn't write.

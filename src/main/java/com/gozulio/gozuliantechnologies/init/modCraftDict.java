@@ -14,7 +14,7 @@ public class modCraftDict
 {
     public static void init()
     {
-        /*
+        /**
         //Example recipes, so i don't forget how to do this =P
         GameRegistry.addRecipe(new ItemStack(modItems.itemtiberiumgreen),
                 " d ",
@@ -27,12 +27,12 @@ public class modCraftDict
                 new ItemStack(Items.diamond),
                 new ItemStack(Items.diamond)
         );
-         */
+         **/
 
-        /*
+        /**
         ITEMS MAIN
-         */
-        /*
+         **/
+        /**
         //Green Tiberium Shard - Depreciated.
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(modItems.itemtiberiumgreen),
                 "ege",
@@ -41,7 +41,7 @@ public class modCraftDict
                 'e', Items.ender_pearl,
                 'g', Items.gold_ingot,
                 'd', Items.diamond));
-        */
+        **/
         //Tiberium Blue crafting.
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(modItems.itemtiberiumblue, 9),
                 "ggg",
@@ -59,13 +59,21 @@ public class modCraftDict
                 'S', Items.nether_star));
 
 
-        /*
+        /**
         ITEMS SWORDS
-         */
+         **/
         //Green Tiberium Sword.
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(modItems.tooltiberiumgreensword),
                 " g ",
                 " g ",
+                " s ",
+                'g', "tibshardgreen",
+                's', "stickWood"));
+
+        //Green Tiberium Pickaxe.
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(modItems.tooltiberiumgreenpickaxe),
+                "ggg",
+                " s ",
                 " s ",
                 'g', "tibshardgreen",
                 's', "stickWood"));
@@ -77,11 +85,26 @@ public class modCraftDict
                 " o ",
                 'b', "tibshardblue",
                 'o', new ItemStack(Blocks.obsidian)));
+        //Blue Tiberium Pickaxe.
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(modItems.tooltiberiumbluepickaxe),
+                "bbb",
+                " o ",
+                " o ",
+                'b', "tibshardblue",
+                'o', new ItemStack(Blocks.obsidian)));
 
         //Red Tiberium Sword.
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(modItems.tooltiberiumredsword),
                 " r ",
                 " r ",
+                " d ",
+                'r', "tibshardred",
+                'd', new ItemStack(Items.diamond)));
+
+        //Red Tiberium Pickaxe.
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(modItems.tooltiberiumredpickaxe),
+                "rrr",
+                " d ",
                 " d ",
                 'r', "tibshardred",
                 'd', new ItemStack(Items.diamond)));
