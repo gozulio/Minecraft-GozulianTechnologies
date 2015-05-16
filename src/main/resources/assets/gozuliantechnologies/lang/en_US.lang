@@ -19,9 +19,13 @@ item.gozuliantechnologies:Tiberium_Pickaxe_Red.name=Red Tiberium Pickaxe
 ##########
 #blocks
 ##########
+#Flat Blocks
 tile.gozuliantechnologies:Tiberium_Green_Block.name=Green Tiberium Crystal
 tile.gozuliantechnologies:Tiberium_Blue_Block.name=Blue Tiberium Crystal
 tile.gozuliantechnologies:Tiberium_Red_Block.name=Red Tiberium Crystal
+
+#Tile Entities
+tile.gozuliantechnologies:Energy_Sink.name=Energy Sink
 
 ##########
 #Creative Tab
